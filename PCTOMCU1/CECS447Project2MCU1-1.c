@@ -260,7 +260,7 @@ void Mode1Option2(void) {
 			Low_Trigger = PERIOD - 1;
 			High_Trigger = 0;
 		}else if(brightness == 0){
-			High_Trigger = PERIOD - 1;
+			High_Trigger = 0;
 			Low_Trigger = 0;
 			
 		}else{
